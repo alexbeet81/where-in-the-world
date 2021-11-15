@@ -1,9 +1,13 @@
 import './App.css';
 
+import CountryIndex from './components/Countries/CountryIndex';
+import NavBar from './components/UI/NavBar';
+
 function App() {
   return (
     <div>
-      <h1>Hello!</h1>
+      <NavBar/>
+      <CountryIndex/>
     </div>
   );
 }
