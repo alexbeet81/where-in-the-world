@@ -1,8 +1,8 @@
 import React from 'react';
-
+import SearchBar from '../Search/SearchBar'
 const CountryIndex = () => {
   return (
-    <div>hello from Country Index</div>
+    <SearchBar/>
   )
 };
 
